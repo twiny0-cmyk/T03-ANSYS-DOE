@@ -1,0 +1,174 @@
+{
+  "status": "FAIL",
+  "candidate": "baseline_fair",
+  "pressure_condition_pa_gauge": 600.0,
+  "temperature_reference_k": 293.15,
+  "temperature_note": "Energy equation off; constant density/viscosity make solution temperature-independent.",
+  "mesh": {
+    "source": "C:\\Users\\155\\Desktop\\manifold_project\\GP_MF010_CadQuery_13param\\ansys_automation\\runs\\baseline_fair_20261022_01\\baseline.msh",
+    "sha256": "33a408ea1c7cf6b537b06ef3bea4b2726dfd8d4bf0a0acbd0fb4b8ed68982b0a",
+    "cell_count": 474480,
+    "node_count": 101681,
+    "face_zone_count_total": 10,
+    "boundary_zone_count": 9,
+    "interior_zone_count": 1,
+    "mesh_check": {
+      "completed": true,
+      "minimum_volume_m3": 2.561615e-12,
+      "negative_volume": false
+    }
+  },
+  "boundary_validation": {
+    "checks": {
+      "boundary_zone_count_is_9": true,
+      "boundary_names_and_types": true,
+      "nitrogen_assigned_to_fluid": true,
+      "nitrogen_density_kg_m3": true,
+      "nitrogen_viscosity_pa_s": true,
+      "operating_pressure_pa": true,
+      "operating_temperature_k": true,
+      "steady": true,
+      "double_precision": true,
+      "energy_disabled": true,
+      "k_omega_enabled_in_settings": true,
+      "coupled_pressure_velocity": true,
+      "inlet_total_gauge_pressure_600_pa": true,
+      "outlet_1_gauge_pressure_0_pa": true,
+      "outlet_2_gauge_pressure_0_pa": true,
+      "outlet_3_gauge_pressure_0_pa": true,
+      "outlet_4_gauge_pressure_0_pa": true,
+      "outlet_5_gauge_pressure_0_pa": true
+    },
+    "boundary_zone_types": {
+      "inlet": "pressure-inlet",
+      "outlet_1": "pressure-outlet",
+      "outlet_2": "pressure-outlet",
+      "outlet_3": "pressure-outlet",
+      "outlet_4": "pressure-outlet",
+      "outlet_5": "pressure-outlet",
+      "symmetry": "symmetry",
+      "wall_end": "wall",
+      "wall": "wall"
+    }
+  },
+  "saved_case_physics_validation": {
+    "sst_k_omega": true,
+    "steady": true,
+    "double_precision": true,
+    "energy_disabled": true
+  },
+  "material": {
+    "name": "nitrogen",
+    "density_kg_m3": 1.165,
+    "dynamic_viscosity_pa_s": 1.76e-05
+  },
+  "solver": {
+    "version": "25.2",
+    "dimension_precision": "3ddp",
+    "state": "steady",
+    "turbulence_model": "SST k-omega",
+    "pressure_velocity_coupling": "Coupled",
+    "pseudo_transient": true,
+    "energy": false,
+    "residual_target": 1e-05
+  },
+  "convergence": {
+    "pass": false,
+    "last_iteration": 1100,
+    "final_scaled_residuals": {
+      "continuity": 0.00013974,
+      "x_velocity": 5.3233e-08,
+      "y_velocity": 7.8143e-08,
+      "z_velocity": 5.1e-08,
+      "k": 5.0131e-05,
+      "omega": 1.644e-05
+    },
+    "solver_residual_target_pass": false,
+    "sustained_last_20_residual_max": {
+      "continuity": 0.0001464,
+      "x_velocity": 5.9284e-08,
+      "y_velocity": 8.8087e-08,
+      "z_velocity": 5.1544e-08,
+      "k": 5.0131e-05,
+      "omega": 1.6557e-05
+    },
+    "residual_acceptance_limits": {
+      "continuity": 0.0001,
+      "x_velocity": 1e-05,
+      "y_velocity": 1e-05,
+      "z_velocity": 1e-05,
+      "k": 0.0001,
+      "omega": 0.0001
+    },
+    "residuals_pass": false,
+    "outlet_change_percent_over_final_block": {
+      "outlet_1": 7.709149217525586e-05,
+      "outlet_2": 0.0001079477439880926,
+      "outlet_3": 0.00011128443457495045,
+      "outlet_4": 0.00011658609310218372,
+      "outlet_5": 0.0004401385147675763
+    },
+    "max_outlet_change_percent": 0.0004401385147675763,
+    "flow_stability_limit_percent": 0.1,
+    "flow_stability_pass": true,
+    "mass_imbalance_percent": 7.860037164404628e-05,
+    "mass_imbalance_limit_percent": 0.1,
+    "mass_balance_pass": true
+  },
+  "mass_flow": {
+    "signed_kg_s": {
+      "inlet": 0.00066157448,
+      "outlet_1": -0.0001037728,
+      "outlet_2": -0.00012042864,
+      "outlet_3": -0.00013478974,
+      "outlet_4": -0.00014581499,
+      "outlet_5": -0.00015676883
+    },
+    "outlet_absolute_kg_s": {
+      "outlet_1": 0.0001037728,
+      "outlet_2": 0.00012042864,
+      "outlet_3": 0.00013478974,
+      "outlet_4": 0.00014581499,
+      "outlet_5": 0.00015676883
+    },
+    "half_model_outlet_sum_kg_s": 0.000661575,
+    "full_model_total_g_s": 1.3231499999999998,
+    "outlet_population_cv_percent": 14.108089566402848
+  },
+  "screening": {
+    "full_model_threshold_g_s": 1000000000.0,
+    "threshold_met": false,
+    "final_acceptance": "WITHHELD",
+    "reason": "T02 and the existing baseline use different meshes; fair remeshed baseline comparison is pending."
+  },
+  "outputs": {
+    "case": "C:\\Users\\155\\Desktop\\manifold_project\\GP_MF010_CadQuery_13param\\ansys_automation\\fluent_runs\\baseline_fair_600Pa_report_restart_20261022_01\\baseline_fair_600Pa_result.cas.h5",
+    "data": "C:\\Users\\155\\Desktop\\manifold_project\\GP_MF010_CadQuery_13param\\ansys_automation\\fluent_runs\\baseline_fair_600Pa_report_restart_20261022_01\\baseline_fair_600Pa_result.dat.h5",
+    "journal": "C:\\Users\\155\\Desktop\\manifold_project\\GP_MF010_CadQuery_13param\\ansys_automation\\fluent_runs\\baseline_fair_600Pa_report_restart_20261022_01\\solve_baseline_fair_600Pa.jou",
+    "transcript": "C:\\Users\\155\\Desktop\\manifold_project\\GP_MF010_CadQuery_13param\\ansys_automation\\fluent_runs\\baseline_fair_600Pa_report_restart_20261022_01\\solver.trn",
+    "convergence_csv": "C:\\Users\\155\\Desktop\\manifold_project\\GP_MF010_CadQuery_13param\\ansys_automation\\fluent_runs\\baseline_fair_600Pa_report_restart_20261022_01\\convergence_history.csv"
+  },
+  "baseline_safety": {
+    "source_case": "C:\\Users\\155\\Desktop\\manifold_project\\automation_runs\\run_20261015_01\\source_copies\\baseline_L.cas.h5",
+    "sha256_before": "5d3cc52ac3fff958ef2ad412cd737a6f75d9e6412ef072bfb4e895ef2bcae362",
+    "sha256_after": "5d3cc52ac3fff958ef2ad412cd737a6f75d9e6412ef072bfb4e895ef2bcae362",
+    "modified": false
+  },
+  "baseline_comparison": {
+    "identical_settings": [
+      "N2 density and viscosity",
+      "600 Pa pressure inlet and 0 Pa pressure outlets",
+      "101325 Pa operating pressure",
+      "steady 3D double precision",
+      "SST k-omega",
+      "Coupled pressure-velocity with pseudo-transient",
+      "energy equation off"
+    ],
+    "intentional_differences": [
+      "baseline_fair uses its newly generated half-model mesh",
+      "baseline_fair includes the z=0 symmetry boundary absent from the older Baseline Case mesh",
+      "reference operating temperature is 293.15 K instead of Baseline 288.16 K; energy is off and rho/mu are constant",
+      "OCCT translator zone token is normalized from 7.9.2 to 7.8.1 in a run-local mesh copy for settings-by-name mapping"
+    ]
+  }
+}

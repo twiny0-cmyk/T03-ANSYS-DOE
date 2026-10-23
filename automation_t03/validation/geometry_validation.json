@@ -1,0 +1,16 @@
+{
+  "step": "/workspace/t03-validation/T03_regenerated.step",
+  "volume_model_units_cubed": 11134.140910528828,
+  "solid_count": 1,
+  "reference_volume_mm3": 11134.140910529079,
+  "metadata_volume_mm3": 11134.140910528826,
+  "symmetric_difference_mm3": 0.0,
+  "reference_bounds_mm": {
+    "xmin": -1e-07,
+    "xmax": 320.0000001,
+    "ymin": -64.0000001,
+    "ymax": 4.0000001,
+    "zmin": -1.0000152222678906e-07,
+    "zmax": 4.0000001
+  }
+}

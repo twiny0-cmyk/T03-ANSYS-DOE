@@ -1,0 +1,59 @@
+{
+  "records": [
+    {
+      "design_id": "T03",
+      "pressure_pa": 600.0,
+      "cv_percent": 6.61325,
+      "full_mass_flow_g_s": 1.365139,
+      "convergence": "PASS",
+      "source_kind": "user_transcribed_report_not_inspected",
+      "cv_recomputed_from_outlets": false,
+      "fluent_rerun": false,
+      "pdf_inspected": false,
+      "flow_difference_g_s": 0.041989000000000054,
+      "flow_difference_percent": 3.173411933643204,
+      "flow_comparison_pass": true,
+      "qualified_design_pass": null,
+      "qualification_note": "No Fluent rerun; baseline convergence must be PASS and source evidence reviewed before design qualification."
+    },
+    {
+      "design_id": "T03",
+      "pressure_pa": 2500.0,
+      "cv_percent": 5.30797,
+      "full_mass_flow_g_s": 3.014364,
+      "convergence": "PASS",
+      "source_kind": "user_transcribed_report_not_inspected",
+      "cv_recomputed_from_outlets": false,
+      "fluent_rerun": false,
+      "pdf_inspected": false,
+      "flow_difference_g_s": 0.02185525999999971,
+      "flow_difference_percent": 0.7303323698897437,
+      "flow_comparison_pass": true,
+      "qualified_design_pass": null,
+      "qualification_note": "No Fluent rerun; baseline convergence must be PASS and source evidence reviewed before design qualification."
+    },
+    {
+      "design_id": "baseline",
+      "pressure_pa": 600.0,
+      "cv_percent": 14.10809,
+      "full_mass_flow_g_s": 1.32315,
+      "convergence": "FAIL",
+      "source_kind": "user_transcribed_report_not_inspected",
+      "cv_recomputed_from_outlets": false,
+      "fluent_rerun": false,
+      "pdf_inspected": false
+    },
+    {
+      "design_id": "baseline",
+      "pressure_pa": 2500.0,
+      "cv_percent": 19.639006941581144,
+      "full_mass_flow_g_s": 2.9925087400000003,
+      "convergence": "UNKNOWN",
+      "source_kind": "uploaded_outlet_csv_recomputed",
+      "cv_recomputed_from_outlets": true,
+      "fluent_rerun": false,
+      "pdf_inspected": false
+    }
+  ],
+  "note": "Report numbers were transcribed by user, not extracted from PDF. No CFD performed."
+}

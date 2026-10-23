@@ -1,0 +1,14 @@
+{
+  "mdot_outlet_1_kg_s": 0.00020557537,
+  "mdot_outlet_2_kg_s": 0.00026420996,
+  "mdot_outlet_3_kg_s": 0.00031110036,
+  "mdot_outlet_4_kg_s": 0.00034549439,
+  "mdot_outlet_5_kg_s": 0.00036987429,
+  "cv": 0.19639006941581144,
+  "cv_percent": 19.639006941581144,
+  "pressure_pa": 2500.0,
+  "half_mass_flow_kg_s": 0.00149625437,
+  "full_mass_flow_kg_s": 0.00299250874,
+  "full_mass_flow_g_s": 2.9925087400000003,
+  "mass_imbalance_percent": 2.2055068564357904e-05
+}

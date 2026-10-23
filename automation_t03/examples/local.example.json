@@ -1,0 +1,36 @@
+{
+  "stages": [
+    {
+      "name": "meshing",
+      "cwd": ".",
+      "command": [
+        "C:/Program Files/ANSYS Inc/v252/Framework/bin/Win64/RunWB2.exe",
+        "-B",
+        "-R",
+        "mesh.wbjn"
+      ],
+      "outputs": [
+        "mesh.msh.h5"
+      ],
+      "timeout_seconds": 7200
+    },
+    {
+      "name": "fluent",
+      "cwd": ".",
+      "command": [
+        "C:/Program Files/ANSYS Inc/v252/fluent/ntbin/win64/fluent.exe",
+        "3ddp",
+        "-g",
+        "-t4",
+        "-i",
+        "solve.jou"
+      ],
+      "outputs": [
+        "solved.cas.h5",
+        "solved.dat.h5",
+        "outlet_flows.csv"
+      ],
+      "timeout_seconds": 14400
+    }
+  ]
+}

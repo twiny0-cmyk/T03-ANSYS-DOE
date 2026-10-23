@@ -1,0 +1,20 @@
+{
+  "mdot_outlet_1_kg_s": 0.00028264955,
+  "mdot_outlet_2_kg_s": 0.00032343966000000004,
+  "mdot_outlet_3_kg_s": 0.00031628745000000005,
+  "mdot_outlet_4_kg_s": 0.00029784156,
+  "mdot_outlet_5_kg_s": 0.00028696368,
+  "total_mass_flow_kg_s": 0.0015071819,
+  "cv": 0.053079719681415616,
+  "cv_percent": 5.307971968141562,
+  "design_id": "T03",
+  "pressure_pa": 2500.0,
+  "full_mass_flow_g_s": 3.0143638000000004,
+  "reported_convergence": "PASS",
+  "source": "PDF section 5.1, printed page 4; manually transcribed rounded outlet values",
+  "fluent_rerun": false,
+  "flow_threshold_g_s": 2.992509,
+  "flow_threshold_kind": "specified_2500Pa_lower_bound",
+  "numeric_flow_threshold_met": true,
+  "final_design_acceptance": "WITHHELD"
+}

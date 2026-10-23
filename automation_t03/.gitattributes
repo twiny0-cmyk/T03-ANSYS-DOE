@@ -1,0 +1,4 @@
+# Preserve team originals byte-for-byte, including Windows CRLF and PDF bytes.
+reference_inputs/** -text
+reference_inputs/**/*.pdf binary
+reference_inputs/**/*.cas.h5 binary

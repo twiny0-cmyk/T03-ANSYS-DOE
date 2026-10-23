@@ -1,0 +1,14 @@
+{
+  "validation_scope": "offline code/CAD/file-interface only; no ANSYS runtime",
+  "tests_passed": 24,
+  "tests_skipped": 0,
+  "geometry_face_classification": "T03 plus changed design; 14 faces each",
+  "prepared_job": "/workspace/t03-local-pilot-delivery",
+  "prepared_status": "PREPARED_NO_ANSYS_EXECUTED",
+  "generated_workbench_journal_syntax": "CPython compile passed; Workbench execution untested",
+  "ansys_meshing_executed": false,
+  "fluent_executed": false,
+  "windows_powershell_executed": false,
+  "optislang_executed": false,
+  "remaining": "Windows v252 API/export/query and solver pilot validation"
+}

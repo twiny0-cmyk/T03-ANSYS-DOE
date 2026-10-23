@@ -1,0 +1,4 @@
+design_id,pressure_pa,cv_percent,full_mass_flow_g_s,convergence,source_kind
+T03,600,6.61325,1.365139,PASS,user_transcribed_report_not_inspected
+T03,2500,5.30797,3.014364,PASS,user_transcribed_report_not_inspected
+baseline,600,14.10809,1.323150,FAIL,user_transcribed_report_not_inspected

@@ -1,0 +1,19 @@
+{
+  "mdot_outlet_1_kg_s": 0.0001037728,
+  "mdot_outlet_2_kg_s": 0.00012042864,
+  "mdot_outlet_3_kg_s": 0.00013478974,
+  "mdot_outlet_4_kg_s": 0.00014581499,
+  "mdot_outlet_5_kg_s": 0.00015676883,
+  "total_mass_flow_kg_s": 0.000661575,
+  "cv": 0.14108089566402848,
+  "cv_percent": 14.108089566402848,
+  "full_mass_flow_g_s": 1.3231499999999998,
+  "mass_imbalance_percent": 7.86003716440463e-05,
+  "residual_gate_recomputed": false,
+  "mass_balance_gate_recomputed": true,
+  "flow_stability_gate_from_recorded_changes": true,
+  "convergence_gate_from_recorded_metrics": false,
+  "source": "uploaded fluent_result.json; not a solver rerun",
+  "fluent_rerun": false,
+  "history_independently_verified": false
+}

@@ -1,0 +1,42 @@
+{
+  "design_id": "T03_dia_strong",
+  "units": "mm",
+  "fluid_domain": "half-model, Z>=0, symmetry at Z=0",
+  "input_parameters": {
+    "D_b1": 5.85,
+    "D_b2": 5.4,
+    "D_b3": 5.0,
+    "D_b4": 4.7,
+    "D_b5": 4.5,
+    "g1": 50.0,
+    "g2": 50.0,
+    "g3": 50.0,
+    "L_b1": 60.0,
+    "L_b2": 60.0,
+    "L_b3": 60.0,
+    "L_b4": 60.0,
+    "L_b5": 60.0
+  },
+  "derived_g4_mm": 50.0,
+  "branch_centers_x_mm": [
+    100.0,
+    150.0,
+    200.0,
+    250.0,
+    300.0
+  ],
+  "outlet_planes_y_mm": [
+    -64.0,
+    -64.0,
+    -64.0,
+    -64.0,
+    -64.0
+  ],
+  "inlet_plane_x_mm": 0.0,
+  "end_wall_plane_x_mm": 320.0,
+  "header_diameter_mm": 8.0,
+  "fluid_volume_half_mm3": 11134.140910528826,
+  "shape_is_valid": true,
+  "solid_count": 1,
+  "ansys_note": "Assign inlet/outlet_1..5/symmetry/wall_end/walls by geometric location; do not rely on face IDs."
+}

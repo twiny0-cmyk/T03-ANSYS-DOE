@@ -1,0 +1,16 @@
+{
+  "design_id": "T03",
+  "pressure_pa": 600.0,
+  "cv_percent": 6.61325,
+  "full_mass_flow_g_s": 1.365139,
+  "convergence": "PASS",
+  "source_kind": "user_transcribed_report_not_inspected",
+  "cv_recomputed_from_outlets": false,
+  "fluent_rerun": false,
+  "pdf_inspected": false,
+  "flow_difference_g_s": 0.041989000000000054,
+  "flow_difference_percent": 3.173411933643204,
+  "flow_comparison_pass": true,
+  "qualified_design_pass": null,
+  "qualification_note": "No Fluent rerun; baseline convergence must be PASS and source evidence reviewed before design qualification."
+}

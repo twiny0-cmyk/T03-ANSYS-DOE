@@ -1,0 +1,110 @@
+{
+  "design_id": "T03_dia_strong",
+  "geometry_length_unit": "mm",
+  "outlets": [
+    "outlet_1",
+    "outlet_2",
+    "outlet_3",
+    "outlet_4",
+    "outlet_5"
+  ],
+  "outward_sign": -1,
+  "pressure_conditions_pa": [
+    600,
+    2500
+  ],
+  "domain_fraction": 0.5,
+  "variables": [
+    {
+      "name": "D_b1",
+      "unit": "mm",
+      "lower": 4,
+      "baseline": 5.85,
+      "upper": 6
+    },
+    {
+      "name": "D_b2",
+      "unit": "mm",
+      "lower": 4,
+      "baseline": 5.4,
+      "upper": 6
+    },
+    {
+      "name": "D_b3",
+      "unit": "mm",
+      "lower": 4,
+      "baseline": 5.0,
+      "upper": 6
+    },
+    {
+      "name": "D_b4",
+      "unit": "mm",
+      "lower": 4,
+      "baseline": 4.7,
+      "upper": 6
+    },
+    {
+      "name": "D_b5",
+      "unit": "mm",
+      "lower": 4,
+      "baseline": 4.5,
+      "upper": 6
+    },
+    {
+      "name": "g1",
+      "unit": "mm",
+      "lower": 30,
+      "baseline": 50.0,
+      "upper": 60
+    },
+    {
+      "name": "g2",
+      "unit": "mm",
+      "lower": 30,
+      "baseline": 50.0,
+      "upper": 60
+    },
+    {
+      "name": "g3",
+      "unit": "mm",
+      "lower": 30,
+      "baseline": 50.0,
+      "upper": 60
+    },
+    {
+      "name": "L_b1",
+      "unit": "mm",
+      "lower": 40,
+      "baseline": 60.0,
+      "upper": 80
+    },
+    {
+      "name": "L_b2",
+      "unit": "mm",
+      "lower": 40,
+      "baseline": 60.0,
+      "upper": 80
+    },
+    {
+      "name": "L_b3",
+      "unit": "mm",
+      "lower": 40,
+      "baseline": 60.0,
+      "upper": 80
+    },
+    {
+      "name": "L_b4",
+      "unit": "mm",
+      "lower": 40,
+      "baseline": 60.0,
+      "upper": 80
+    },
+    {
+      "name": "L_b5",
+      "unit": "mm",
+      "lower": 40,
+      "baseline": 60.0,
+      "upper": 80
+    }
+  ]
+}

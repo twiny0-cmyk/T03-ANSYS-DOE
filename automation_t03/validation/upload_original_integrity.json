@@ -1,0 +1,42 @@
+[
+  {
+    "file": "automation_t03/reference_inputs/fluent_results.csv",
+    "sha256": "becbaf9458a131c8c2e2680dd2e546ca6819d5153b76f0be35b4dbbbcb18e129",
+    "upload_matches": true
+  },
+  {
+    "file": "automation_t03/reference_inputs/README_MORNING.txt",
+    "sha256": "6856d509074baef63615128710dc176a48edab429e5cab758b3ee0106559390b",
+    "upload_matches": true
+  },
+  {
+    "file": "automation_t03/reference_inputs/T03_dia_strong.json",
+    "sha256": "c52adc3a9ad574a04fd95412ac5e2bc87c118f0e67bb0a62b32cfb87fec260a5",
+    "upload_matches": true
+  },
+  {
+    "file": "automation_t03/reference_inputs/check_fluent_results.py",
+    "sha256": "1ef28964f04c85ab0db3d7322914d021ba4ef919dd4fbc1ad845d56a0fde19c3",
+    "upload_matches": true
+  },
+  {
+    "file": "automation_t03/reference_inputs/T03_dia_strong.step",
+    "sha256": "e560b33c6d5586e698666ec31e39abb11dab1ae620714c7a5f100d8f64d96ff1",
+    "upload_matches": true
+  },
+  {
+    "file": "automation_t03/reference_inputs/team_additions/baseline_fair_600Pa_result.cas.h5",
+    "sha256": "2e958aa73671bab677edb2a90e576ddfa43124a9470efd96f69859ddf488b006",
+    "upload_matches": true
+  },
+  {
+    "file": "automation_t03/reference_inputs/team_additions/fluent_result.json",
+    "sha256": "de732cffa5f15f3b8d1e7d5fa6d40761b4fa117660392a64ab0857027a1518a5",
+    "upload_matches": true
+  },
+  {
+    "file": "automation_t03/reference_inputs/team_additions/GP_MF010_ANSYS_CFD_Interim_Report_2026-10-22.pdf",
+    "sha256": "ce027fd9bd3bce9bb373b426ad289e08aff335efa77c17432c8616e61d125e47",
+    "upload_matches": true
+  }
+]

@@ -1,0 +1,3 @@
+# Windows CPython 3.11/3.12, separate venv. ANSYS 2025 R2 installed locally.
+cadquery==2.6.1
+ansys-fluent-core==0.35.0

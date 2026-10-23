@@ -1,0 +1,5 @@
+{
+  "pressure_pa": 2500.0,
+  "pressure_type": "inlet_gauge_total",
+  "source": "PDF section 4"
+}

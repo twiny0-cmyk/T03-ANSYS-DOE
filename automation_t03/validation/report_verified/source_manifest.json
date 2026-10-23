@@ -1,0 +1,27 @@
+{
+  "files": [
+    {
+      "file": "GP_MF010_ANSYS_CFD_Interim_Report_2026-10-22.pdf",
+      "bytes": 944512,
+      "sha256": "ce027fd9bd3bce9bb373b426ad289e08aff335efa77c17432c8616e61d125e47"
+    },
+    {
+      "file": "baseline_fair_600Pa_result.cas.h5",
+      "bytes": 14865935,
+      "sha256": "2e958aa73671bab677edb2a90e576ddfa43124a9470efd96f69859ddf488b006"
+    },
+    {
+      "file": "fluent_result.json",
+      "bytes": 6818,
+      "sha256": "de732cffa5f15f3b8d1e7d5fa6d40761b4fa117660392a64ab0857027a1518a5"
+    },
+    {
+      "file": "report_outlets_transcribed.csv",
+      "bytes": 720,
+      "sha256": "cdf4df05898002f3f1c0ab068e6da4f31ef1952c61d12d23b970292a1b2fb9ad"
+    }
+  ],
+  "case_check": "HDF5 signature only; Fluent contents not loaded",
+  "data_file_available": false,
+  "fluent_rerun": false
+}
